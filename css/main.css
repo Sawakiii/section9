@@ -1,0 +1,21 @@
+.wrap .image {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  overflow: hidden;
+  margin: 0 auto;
+  opacity: 0;
+  transition: opacity 0.5s 0s linear; }
+.wrap .image1 {
+  background-image: url(../img/pig1.jpg); }
+.wrap .image2 {
+  background-image: url(../img/pig2.jpg);
+  margin-top: -300px; }
+.wrap .image3 {
+  background-image: url(../img/pig3.jpg);
+  margin-top: -300px; }
+.wrap .image-appear {
+  opacity: 1;
+  transition: transform 5s 0s linear; }
+
+/*# sourceMappingURL=main.css.map */
